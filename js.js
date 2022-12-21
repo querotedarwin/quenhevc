@@ -1,6 +1,6 @@
   $(document).ready(function(){
       var ISA = 0; //Variavel para armazenar qual questão o código deve rodar
-      //var deuses = ["demeter", "hera", "eros", "temis", "artemis", "apolo", "hermes", "ares", "dionisio", "hades", "persefone", "zeus", "poseidon", "cronnos", "atenas", "hestia", "afrodite"];
+      //var deuses = ["darwin", "hera", "eros", "temis", "artemis", "apolo", "hermes", "ares", "dionisio", "hades", "persefone", "zeus", "poseidon", "cronnos", "atenas", "hestia", "afrodite"];
         //Sim, os deuses agora são simples variaveis. hahahaha
       var demeter = 0, hera = 0, eros = 0, temis = 0, artemis = 0, apolo = 0, hermes = 0, ares = 0, dionisio = 0, hades = 0, persefone = 0, zeus = 0, poseidon = 0, cronnos = 0, atenas = 0, hestia = 0, afrodite = 0;
 	  $('#MyButton').click(function(){ //Função click "Botão PROXIMO"
@@ -130,13 +130,13 @@
           case 6:
               $('#setimo').addClass('ocultarPergunta');
               $('#oitavo').addClass('ocultarPergunta');
-          document.getElementById("pergunta").innerHTML = "";
-          document.getElementById("answerGroup_0").innerHTML = "";
-          document.getElementById("answerGroup_1").innerHTML = "";
-          document.getElementById("answerGroup_2").innerHTML = "";
-          document.getElementById("answerGroup_3").innerHTML = "";
-          document.getElementById("answerGroup_4").innerHTML = "";
-          document.getElementById("answerGroup_5").innerHTML = "";
+          document.getElementById("pergunta").innerHTML = "Qual sua estação favorita?";
+          document.getElementById("answerGroup_0").innerHTML = "Primavera";
+          document.getElementById("answerGroup_1").innerHTML = "Verão";
+          document.getElementById("answerGroup_2").innerHTML = "Outono";
+          document.getElementById("answerGroup_3").innerHTML = "Inverno";
+          document.getElementById("answerGroup_4").innerHTML = "Todas tem sua própria beleza";
+          document.getElementById("answerGroup_5").innerHTML = "Não saio de casa então não faz diferença";
             break;
           case 7:
           $('#setimo').removeClass('ocultarPergunta');
